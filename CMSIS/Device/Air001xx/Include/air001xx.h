@@ -79,7 +79,7 @@ extern "C" {
   * @{
   */
 
-#if defined(AIR001_DEV)
+#if defined(ARDUINO_AIR001_DEV)
 #include "air001_dev.h"
 #else
 #error "Please select first the target device used in your application (in Air001.h file)"
@@ -144,7 +144,7 @@ typedef enum
   */
 
 #if defined (USE_HAL_DRIVER)
-#include "air001_hal.h"
+#include "air001xx_hal.h"
 #endif /* USE_HAL_DRIVER */
 
 

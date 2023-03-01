@@ -342,6 +342,8 @@ typedef struct
   */
 #define RCC_HSI_OFF                    0x00000000U            /*!< HSI clock deactivation */
 #define RCC_HSI_ON                     RCC_CR_HSION           /*!< HSI clock activation */
+
+#define RCC_HSICALIBRATION_DEFAULT       (0x10U)         /* Default HSI calibration trimming value */
 /**
   * @}
   */
